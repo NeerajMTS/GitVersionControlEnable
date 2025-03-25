@@ -1,0 +1,47 @@
+guid: 0804c777-a9df-4260-8dd2-16edd8beeceb
+liveboard:
+  name: neeraj's first Liveboard
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: Total sales by Monthly date - Fiscal and city
+      tables:
+      - id: (Sample) Retail - Apparel
+        name: (Sample) Retail - Apparel
+        fqn: cd252e5c-b552-49a8-821d-3eadaa049cca
+      search_query: "[city] [sales] [date] [date].monthly"
+      answer_columns:
+      - name: Month(date)
+      - name: Total sales
+      - name: city
+      table:
+        table_columns:
+        - column_id: Month(date)
+          show_headline: false
+        - column_id: Total sales
+          show_headline: false
+        - column_id: city
+          show_headline: false
+        ordered_column_ids:
+        - city
+        - Month(date)
+        - Total sales
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: LINE
+        chart_columns:
+        - column_id: Month(date)
+        - column_id: Total sales
+        - column_id: city
+        axis_configs:
+        - x:
+          - Month(date)
+          "y":
+          - Total sales
+          color:
+          - city
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"city\",\"columnProperty\": {}},{\"columnId\": \"Month(date)\",\"columnProperty\": {}},{\"columnId\": \"Total sales\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"e2633672-16ee-4c79-b88e-e8c5e8f1dd65\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total sales\"],\"isOpposite\": false}},{\"id\": \"718b6ae8-9964-4d74-9f90-c43d25f25679\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Month(date)\"]}}],\"systemSeriesColors\": [{\"serieName\": \"alpharetta\",\"color\": \"#2E75F0\"},{\"serieName\": \"ann arbor\",\"color\": \"#48D1E0\"},{\"serieName\": \"arcadia\",\"color\": \"#FCC838\"},{\"serieName\": \"atlanta\",\"color\": \"#06BF7F\"},{\"serieName\": \"berkeley\",\"color\": \"#8C62F5\"},{\"serieName\": \"billings\",\"color\": \"#FF8142\"},{\"serieName\": \"bloomington\",\"color\": \"#ABC7F9\"},{\"serieName\": \"boise\",\"color\": \"#B5ECF2\"},{\"serieName\": \"boston\",\"color\": \"#FDE9AF\"},{\"serieName\": \"boulder\",\"color\": \"#9BE5CB\"},{\"serieName\": \"bozeman\",\"color\": \"#D1C0FB\"},{\"serieName\": \"chandler\",\"color\": \"#FFCCB3\"},{\"serieName\": \"chicago\",\"color\": \"#2359B6\"},{\"serieName\": \"colorado springs\",\"color\": \"#369FAA\"},{\"serieName\": \"columbia\",\"color\": \"#BF982A\"},{\"serieName\": \"east hanover\",\"color\": \"#049160\"},{\"serieName\": \"flagstaff\",\"color\": \"#6A4ABA\"},{\"serieName\": \"framingham\",\"color\": \"#C26232\"},{\"serieName\": \"henderson\",\"color\": \"#71A1F4\"},{\"serieName\": \"indianapolis\",\"color\": \"#82DFE9\"},{\"serieName\": \"kentwood\",\"color\": \"#FCD977\"},{\"serieName\": \"las vegas\",\"color\": \"#56D3A8\"},{\"serieName\": \"maple grove\",\"color\": \"#B094F8\"},{\"serieName\": \"newark\",\"color\": \"#FFA97E\"},{\"serieName\": \"north conway\",\"color\": \"#163772\"},{\"serieName\": \"northbrook\",\"color\": \"#22636B\"},{\"serieName\": \"norwalk\",\"color\": \"#785F1A\"},{\"serieName\": \"st. louis\",\"color\": \"#025B3C\"},{\"serieName\": \"west des moines\",\"color\": \"#422E75\"},{\"serieName\": \"west hartford\",\"color\": \"#7A3D1F\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 8d0b92b4-9939-44d0-a117-7e4b273fb6f2
