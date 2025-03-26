@@ -219,3 +219,5 @@ liveboard:
       size: SMALL
     - visualization_id: Viz_4
       size: SMALL
+    - visualization_id: Viz_5
+      size: SMALL
