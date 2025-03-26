@@ -5,7 +5,7 @@ table:
   schema: TPCH5K_falcon_default_schema
   db_table: CUSTOMER
   connection:
-    name: Testone
+    name: connection
     fqn: d58bee26-999b-4a60-8f5c-a2cb9aec4d2d
   columns:
   - name: C_CUSTKEY
