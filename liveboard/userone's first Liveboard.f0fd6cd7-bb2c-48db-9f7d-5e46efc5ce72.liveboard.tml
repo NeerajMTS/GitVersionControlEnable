@@ -88,6 +88,49 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"C Region\",\"columnProperty\": {}},{\"columnId\": \"Lo Shipmode\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Revenue\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"1c32c4c9-d5c1-427c-a826-e9b37894aaf5\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Revenue\"],\"isOpposite\": false}},{\"id\": \"a31f49d0-8584-4729-9482-2e002032c7a2\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Lo Shipmode\"]}}],\"systemSeriesColors\": [{\"serieName\": \"africa\",\"color\": \"#06BF7F\"},{\"serieName\": \"america\",\"color\": \"#FCC838\"},{\"serieName\": \"asia\",\"color\": \"#48D1E0\"},{\"serieName\": \"europe\",\"color\": \"#71A1F4\"},{\"serieName\": \"middle east\",\"color\": \"#2E75F0\"}]}"
       display_mode: CHART_MODE
     viz_guid: 11ff9830-019d-42e8-b020-a491f2497548
+  - id: Viz_3
+    answer:
+      name: Total Lo Revenue by C Nation and Lo Shipmode
+      tables:
+      - id: GitVersion
+        name: GitVersion
+        fqn: b069feac-559a-441b-9d70-d7a6c707652c
+      search_query: "[Lo Revenue] [C Nation] [Lo Shipmode]"
+      answer_columns:
+      - name: C Nation
+      - name: Lo Shipmode
+      - name: Total Lo Revenue
+      table:
+        table_columns:
+        - column_id: C Nation
+          show_headline: false
+        - column_id: Lo Shipmode
+          show_headline: false
+        - column_id: Total Lo Revenue
+          show_headline: false
+        ordered_column_ids:
+        - C Nation
+        - Lo Shipmode
+        - Total Lo Revenue
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: C Nation
+        - column_id: Lo Shipmode
+        - column_id: Total Lo Revenue
+        axis_configs:
+        - x:
+          - C Nation
+          "y":
+          - Total Lo Revenue
+          color:
+          - Lo Shipmode
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"C Nation\",\"columnProperty\": {}},{\"columnId\": \"Lo Shipmode\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Revenue\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"6c1d3945-e2ba-46d8-8269-a0c86f383d49\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Revenue\"],\"isOpposite\": false}},{\"id\": \"61a1e112-5d92-4958-8144-098cbbf5c76f\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"C Nation\"]}}],\"systemSeriesColors\": [{\"serieName\": \"null_test\",\"color\": \"#56D3A8\"},{\"serieName\": \"air\",\"color\": \"#06BF7F\"},{\"serieName\": \"fob\",\"color\": \"#FCD977\"},{\"serieName\": \"mail\",\"color\": \"#FCC838\"},{\"serieName\": \"rail\",\"color\": \"#82DFE9\"},{\"serieName\": \"reg air\",\"color\": \"#48D1E0\"},{\"serieName\": \"ship\",\"color\": \"#71A1F4\"},{\"serieName\": \"truck\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: fe1bd67e-02c5-4965-a4fd-eb89a95f5d35
   layout:
     tiles:
     - visualization_id: Viz_1
