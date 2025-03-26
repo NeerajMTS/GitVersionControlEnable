@@ -1,0 +1,90 @@
+guid: f0fd6cd7-bb2c-48db-9f7d-5e46efc5ce72
+liveboard:
+  name: userone's first Liveboard
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: Total Lo Revenue by C City and Lo Orderpriority
+      tables:
+      - id: GitVersion
+        name: GitVersion
+        fqn: b069feac-559a-441b-9d70-d7a6c707652c
+      search_query: "[Lo Revenue] [Lo Orderpriority] [C City]"
+      answer_columns:
+      - name: C City
+      - name: Lo Orderpriority
+      - name: Total Lo Revenue
+      table:
+        table_columns:
+        - column_id: C City
+          show_headline: false
+        - column_id: Lo Orderpriority
+          show_headline: false
+        - column_id: Total Lo Revenue
+          show_headline: false
+        ordered_column_ids:
+        - Lo Orderpriority
+        - C City
+        - Total Lo Revenue
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: C City
+        - column_id: Lo Orderpriority
+        - column_id: Total Lo Revenue
+        axis_configs:
+        - x:
+          - C City
+          "y":
+          - Total Lo Revenue
+          color:
+          - Lo Orderpriority
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Lo Orderpriority\",\"columnProperty\": {}},{\"columnId\": \"C City\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Revenue\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"757fe4c9-1559-4f06-8038-749a72f9611a\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Revenue\"],\"isOpposite\": false}},{\"id\": \"e4e14fef-540b-4105-bc3a-fed6d19b418c\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"C City\"]}}],\"systemSeriesColors\": [{\"serieName\": \"1-urgent\",\"color\": \"#06BF7F\"},{\"serieName\": \"2-high\",\"color\": \"#FCC838\"},{\"serieName\": \"3-medium\",\"color\": \"#48D1E0\"},{\"serieName\": \"4-not specified\",\"color\": \"#71A1F4\"},{\"serieName\": \"5-low\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: e7f729a6-0843-457d-84b7-7844a8fe7c6b
+  - id: Viz_2
+    answer:
+      name: Total Lo Revenue by Lo Shipmode and C Region
+      tables:
+      - id: GitVersion
+        name: GitVersion
+        fqn: b069feac-559a-441b-9d70-d7a6c707652c
+      search_query: "[Lo Revenue] [C Region] [Lo Shipmode]"
+      answer_columns:
+      - name: C Region
+      - name: Lo Shipmode
+      - name: Total Lo Revenue
+      table:
+        table_columns:
+        - column_id: C Region
+          show_headline: false
+        - column_id: Lo Shipmode
+          show_headline: false
+        - column_id: Total Lo Revenue
+          show_headline: false
+        ordered_column_ids:
+        - C Region
+        - Lo Shipmode
+        - Total Lo Revenue
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: C Region
+        - column_id: Lo Shipmode
+        - column_id: Total Lo Revenue
+        axis_configs:
+        - x:
+          - Lo Shipmode
+          "y":
+          - Total Lo Revenue
+          color:
+          - C Region
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"C Region\",\"columnProperty\": {}},{\"columnId\": \"Lo Shipmode\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Revenue\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"1c32c4c9-d5c1-427c-a826-e9b37894aaf5\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Revenue\"],\"isOpposite\": false}},{\"id\": \"a31f49d0-8584-4729-9482-2e002032c7a2\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Lo Shipmode\"]}}],\"systemSeriesColors\": [{\"serieName\": \"africa\",\"color\": \"#06BF7F\"},{\"serieName\": \"america\",\"color\": \"#FCC838\"},{\"serieName\": \"asia\",\"color\": \"#48D1E0\"},{\"serieName\": \"europe\",\"color\": \"#71A1F4\"},{\"serieName\": \"middle east\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 11ff9830-019d-42e8-b020-a491f2497548
