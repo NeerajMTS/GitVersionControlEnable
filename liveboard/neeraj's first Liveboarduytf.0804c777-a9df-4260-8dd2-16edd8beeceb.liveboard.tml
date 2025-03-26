@@ -1,6 +1,6 @@
 guid: 0804c777-a9df-4260-8dd2-16edd8beeceb
 liveboard:
-  name: neeraj
+  name: neeraj's first Liveboarduytf
   visualizations:
   - id: Viz_1
     answer:
@@ -46,6 +46,16 @@ liveboard:
       display_mode: CHART_MODE
     viz_guid: 8d0b92b4-9939-44d0-a117-7e4b273fb6f2
   layout:
-    tiles:
-    - visualization_id: Viz_1
-      size: MEDIUM
+    tabs:
+    - name: tab1
+      description: ""
+      tiles:
+      - visualization_id: Viz_1
+        x: 0
+        "y": 0
+        height: 8
+        width: 6
+      id: 0efc5c68-b56e-4962-baaf-3995947b18b9
+    - name: tab2
+      description: ""
+      id: 7c24ed0f-d9d0-45d5-af77-48a637e07765
