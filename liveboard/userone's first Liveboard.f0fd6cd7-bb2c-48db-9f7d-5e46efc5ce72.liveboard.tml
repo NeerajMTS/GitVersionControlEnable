@@ -137,3 +137,5 @@ liveboard:
       size: LARGE
     - visualization_id: Viz_2
       size: LARGE
+    - visualization_id: Viz_3
+      size: LARGE
