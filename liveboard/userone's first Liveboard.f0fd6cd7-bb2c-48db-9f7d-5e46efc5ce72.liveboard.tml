@@ -124,3 +124,46 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Lo Shipmode\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Revenue\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"6e3e17d0-44e1-4fef-914b-10127ab0dd37\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Revenue\"],\"isOpposite\": false}},{\"id\": \"6d177b3e-62b5-4d38-94c6-b4e5c0da263a\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Lo Shipmode\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lo Revenue\",\"color\": \"#48D1E0\"}]}"
       display_mode: TABLE_MODE
     viz_guid: c79e7688-35e3-47d4-84ed-3b311f25ddaa
+  - id: Viz_4
+    answer:
+      name: Total Lo Revenue by Total Lo Quantity
+      tables:
+      - id: GitVersion
+        name: GitVersion
+        fqn: b069feac-559a-441b-9d70-d7a6c707652c
+      search_query: "[Lo Quantity] [Lo Revenue] [C City]"
+      answer_columns:
+      - name: C City
+      - name: Total Lo Quantity
+      - name: Total Lo Revenue
+      table:
+        table_columns:
+        - column_id: C City
+          show_headline: false
+        - column_id: Total Lo Quantity
+          show_headline: false
+        - column_id: Total Lo Revenue
+          show_headline: false
+        ordered_column_ids:
+        - C City
+        - Total Lo Quantity
+        - Total Lo Revenue
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: SCATTER
+        chart_columns:
+        - column_id: C City
+        - column_id: Total Lo Quantity
+        - column_id: Total Lo Revenue
+        axis_configs:
+        - x:
+          - Total Lo Quantity
+          "y":
+          - Total Lo Revenue
+          category:
+          - C City
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"C City\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Quantity\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Revenue\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"c833c109-0770-4b22-a72c-b972e1ff3431\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Revenue\"],\"isOpposite\": false}},{\"id\": \"7bb6e90e-4bc9-457d-a36d-db78f568664f\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Total Lo Quantity\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lo Revenue\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: db7561f7-1b29-4f59-86d8-847dfb842260
