@@ -4,7 +4,7 @@ liveboard:
   visualizations:
   - id: Viz_1
     answer:
-      name: Totalone
+      name: Total Lo Revenue by C City and Lo Orderpriority
       tables:
       - id: GitVersion
         name: GitVersion
@@ -42,12 +42,12 @@ liveboard:
           color:
           - Lo Orderpriority
         client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Lo Orderpriority\",\"columnProperty\": {}},{\"columnId\": \"C City\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Revenue\",\"columnProperty\": {}},{\"columnId\": \"17dac7d6-0c08-4ef7-b010-cda3b9d36a82\",\"columnProperty\": {}},{\"columnId\": \"7f70b984-2894-4e9a-93d1-95c30623c92f\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"757fe4c9-1559-4f06-8038-749a72f9611a\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Revenue\"],\"isOpposite\": false}},{\"id\": \"e4e14fef-540b-4105-bc3a-fed6d19b418c\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"C City\"]}}],\"systemSeriesColors\": [{\"serieName\": \"1-urgent\",\"color\": \"#06BF7F\"},{\"serieName\": \"2-high\",\"color\": \"#FCC838\"},{\"serieName\": \"3-medium\",\"color\": \"#48D1E0\"},{\"serieName\": \"4-not specified\",\"color\": \"#71A1F4\"},{\"serieName\": \"5-low\",\"color\": \"#2E75F0\"}]}"
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_OFF\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Lo Orderpriority\",\"columnProperty\": {}},{\"columnId\": \"C City\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Revenue\",\"columnProperty\": {}},{\"columnId\": \"18f12c77-b2ff-4686-8503-e7259cd0d60a\",\"columnProperty\": {}},{\"columnId\": \"6f11488f-c698-4b61-90cd-02f2984c05ed\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"757fe4c9-1559-4f06-8038-749a72f9611a\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Revenue\"],\"isOpposite\": false}},{\"id\": \"e4e14fef-540b-4105-bc3a-fed6d19b418c\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"C City\"]}}],\"systemSeriesColors\": [{\"serieName\": \"1-urgent\",\"color\": \"#06BF7F\"},{\"serieName\": \"2-high\",\"color\": \"#FCC838\"},{\"serieName\": \"3-medium\",\"color\": \"#48D1E0\"},{\"serieName\": \"4-not specified\",\"color\": \"#71A1F4\"},{\"serieName\": \"5-low\",\"color\": \"#2E75F0\"}]}"
       display_mode: CHART_MODE
     viz_guid: e7f729a6-0843-457d-84b7-7844a8fe7c6b
   - id: Viz_2
     answer:
-      name: Total2
+      name: Total Lo Revenue by Lo Shipmode and C Region
       tables:
       - id: GitVersion
         name: GitVersion
@@ -85,12 +85,12 @@ liveboard:
           color:
           - C Region
         client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"C Region\",\"columnProperty\": {}},{\"columnId\": \"Lo Shipmode\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Revenue\",\"columnProperty\": {}},{\"columnId\": \"20aa2912-196f-4bc7-bf4b-acd9722f57ab\",\"columnProperty\": {}},{\"columnId\": \"86ba772b-5e0f-4857-aa56-19c7ab1f28db\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"1c32c4c9-d5c1-427c-a826-e9b37894aaf5\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Revenue\"],\"isOpposite\": false}},{\"id\": \"a31f49d0-8584-4729-9482-2e002032c7a2\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Lo Shipmode\"]}}],\"systemSeriesColors\": [{\"serieName\": \"africa\",\"color\": \"#06BF7F\"},{\"serieName\": \"america\",\"color\": \"#FCC838\"},{\"serieName\": \"asia\",\"color\": \"#48D1E0\"},{\"serieName\": \"europe\",\"color\": \"#71A1F4\"},{\"serieName\": \"middle east\",\"color\": \"#2E75F0\"}]}"
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"C Region\",\"columnProperty\": {}},{\"columnId\": \"Lo Shipmode\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Revenue\",\"columnProperty\": {}},{\"columnId\": \"869323a3-0686-4110-b905-7278e9af1f92\",\"columnProperty\": {}},{\"columnId\": \"671bb456-2ae4-4db0-9ce1-ad119aa5bb19\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"1c32c4c9-d5c1-427c-a826-e9b37894aaf5\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Revenue\"],\"isOpposite\": false}},{\"id\": \"a31f49d0-8584-4729-9482-2e002032c7a2\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Lo Shipmode\"]}}],\"systemSeriesColors\": [{\"serieName\": \"africa\",\"color\": \"#06BF7F\"},{\"serieName\": \"america\",\"color\": \"#FCC838\"},{\"serieName\": \"asia\",\"color\": \"#48D1E0\"},{\"serieName\": \"europe\",\"color\": \"#71A1F4\"},{\"serieName\": \"middle east\",\"color\": \"#2E75F0\"}]}"
       display_mode: CHART_MODE
     viz_guid: 11ff9830-019d-42e8-b020-a491f2497548
   - id: Viz_3
     answer:
-      name: Total3
+      name: Total Lo Revenue by C Nation and Lo Shipmode
       tables:
       - id: GitVersion
         name: GitVersion
@@ -128,12 +128,12 @@ liveboard:
           color:
           - Lo Shipmode
         client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"C Nation\",\"columnProperty\": {}},{\"columnId\": \"Lo Shipmode\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Revenue\",\"columnProperty\": {}},{\"columnId\": \"0e52ec52-62f2-4ec3-8129-64131adf2d42\",\"columnProperty\": {}},{\"columnId\": \"e33f1177-23d2-40d9-91bf-cdf22f9c58e5\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"6c1d3945-e2ba-46d8-8269-a0c86f383d49\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Revenue\"],\"isOpposite\": false}},{\"id\": \"61a1e112-5d92-4958-8144-098cbbf5c76f\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"C Nation\"]}}],\"systemSeriesColors\": [{\"serieName\": \"null_test\",\"color\": \"#56D3A8\"},{\"serieName\": \"air\",\"color\": \"#06BF7F\"},{\"serieName\": \"fob\",\"color\": \"#FCD977\"},{\"serieName\": \"mail\",\"color\": \"#FCC838\"},{\"serieName\": \"rail\",\"color\": \"#82DFE9\"},{\"serieName\": \"reg air\",\"color\": \"#48D1E0\"},{\"serieName\": \"ship\",\"color\": \"#71A1F4\"},{\"serieName\": \"truck\",\"color\": \"#2E75F0\"}]}"
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"C Nation\",\"columnProperty\": {}},{\"columnId\": \"Lo Shipmode\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Revenue\",\"columnProperty\": {}},{\"columnId\": \"331b5551-0872-4bb8-a23a-87002a37328d\",\"columnProperty\": {}},{\"columnId\": \"ad575834-f428-4932-9577-e20d211cbe42\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"6c1d3945-e2ba-46d8-8269-a0c86f383d49\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Revenue\"],\"isOpposite\": false}},{\"id\": \"61a1e112-5d92-4958-8144-098cbbf5c76f\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"C Nation\"]}}],\"systemSeriesColors\": [{\"serieName\": \"null_test\",\"color\": \"#56D3A8\"},{\"serieName\": \"air\",\"color\": \"#06BF7F\"},{\"serieName\": \"fob\",\"color\": \"#FCD977\"},{\"serieName\": \"mail\",\"color\": \"#FCC838\"},{\"serieName\": \"rail\",\"color\": \"#82DFE9\"},{\"serieName\": \"reg air\",\"color\": \"#48D1E0\"},{\"serieName\": \"ship\",\"color\": \"#71A1F4\"},{\"serieName\": \"truck\",\"color\": \"#2E75F0\"}]}"
       display_mode: CHART_MODE
     viz_guid: fe1bd67e-02c5-4965-a4fd-eb89a95f5d35
   - id: Viz_4
     answer:
-      name: Total4
+      name: "Total Lo Orderkey, Total Lo Extendedprice by C Mktsegment"
       tables:
       - id: GitVersion
         name: GitVersion
@@ -170,12 +170,12 @@ liveboard:
           - Total Lo Orderkey
           - Total Lo Extendedprice
         client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"C Mktsegment\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Orderkey\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Extendedprice\",\"columnProperty\": {}},{\"columnId\": \"6c5daca8-2514-45df-ab82-a98e2089d70a\",\"columnProperty\": {}},{\"columnId\": \"835641fb-bede-4451-af6b-f519cc358c77\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"40e9e04e-714e-4ab7-b5f7-be09986efb1f\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Orderkey\"],\"isOpposite\": false}},{\"id\": \"ab5aa0d8-d038-4734-84fc-964ea4dd8cd1\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Extendedprice\"],\"isOpposite\": true}},{\"id\": \"80caac98-a220-45a8-8c75-72678e042360\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"C Mktsegment\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lo Orderkey\",\"color\": \"#48D1E0\"},{\"serieName\": \"Total Lo Extendedprice\",\"color\": \"#2E75F0\"}]}"
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"C Mktsegment\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Orderkey\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Extendedprice\",\"columnProperty\": {}},{\"columnId\": \"549883c3-4f83-4083-809d-e40e8ad2be0a\",\"columnProperty\": {}},{\"columnId\": \"8d0d1688-f7d9-4ac7-827b-76fbedf3200b\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"40e9e04e-714e-4ab7-b5f7-be09986efb1f\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Orderkey\"],\"isOpposite\": false}},{\"id\": \"ab5aa0d8-d038-4734-84fc-964ea4dd8cd1\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Extendedprice\"],\"isOpposite\": true}},{\"id\": \"80caac98-a220-45a8-8c75-72678e042360\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"C Mktsegment\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lo Orderkey\",\"color\": \"#48D1E0\"},{\"serieName\": \"Total Lo Extendedprice\",\"color\": \"#2E75F0\"}]}"
       display_mode: CHART_MODE
     viz_guid: 6b7da9d5-10f4-46bf-ac4f-5c30e4e52a38
   - id: Viz_5
     answer:
-      name: Total5
+      name: Total C Custkey by Lo Shipmode
       tables:
       - id: GitVersion
         name: GitVersion
@@ -206,52 +206,9 @@ liveboard:
           "y":
           - Total C Custkey
         client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Lo Shipmode\",\"columnProperty\": {}},{\"columnId\": \"Total C Custkey\",\"columnProperty\": {}},{\"columnId\": \"51d5191b-5647-44cc-9792-055be2ee2a3b\",\"columnProperty\": {}},{\"columnId\": \"af2e7707-7286-44ef-b710-3acd3e446e4f\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"b7ea20e7-3878-42f5-b0ac-a54c59deb86c\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total C Custkey\"],\"isOpposite\": false}},{\"id\": \"83b7e4ce-1cfb-4237-a191-c0ae7b94f1dd\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Lo Shipmode\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total C Custkey\",\"color\": \"#48D1E0\"}]}"
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Lo Shipmode\",\"columnProperty\": {}},{\"columnId\": \"Total C Custkey\",\"columnProperty\": {}},{\"columnId\": \"1c03a2d7-c7be-449e-8f1c-413a5735aaf6\",\"columnProperty\": {}},{\"columnId\": \"73c2f355-cba6-4ed7-b628-61fc2f011ee1\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"b7ea20e7-3878-42f5-b0ac-a54c59deb86c\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total C Custkey\"],\"isOpposite\": false}},{\"id\": \"83b7e4ce-1cfb-4237-a191-c0ae7b94f1dd\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Lo Shipmode\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total C Custkey\",\"color\": \"#48D1E0\"}]}"
       display_mode: CHART_MODE
     viz_guid: 6d4a2169-737a-447a-a128-f0ba982fb177
-  - id: Viz_6
-    answer:
-      name: Total Lo Partkey by Quarterly Lo Orderdate - Fiscal and Lo Orderpriority
-      tables:
-      - id: GitVersion
-        name: GitVersion
-        fqn: b069feac-559a-441b-9d70-d7a6c707652c
-      search_query: "[Lo Partkey] [Lo Orderdate] [Lo Orderdate].quarterly [Lo Orderpriority]"
-      answer_columns:
-      - name: Lo Orderpriority
-      - name: Quarter(Lo Orderdate)
-      - name: Total Lo Partkey
-      table:
-        table_columns:
-        - column_id: Lo Orderpriority
-          show_headline: false
-        - column_id: Quarter(Lo Orderdate)
-          show_headline: false
-        - column_id: Total Lo Partkey
-          show_headline: false
-        ordered_column_ids:
-        - Quarter(Lo Orderdate)
-        - Lo Orderpriority
-        - Total Lo Partkey
-        client_state: ""
-        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
-      chart:
-        type: LINE
-        chart_columns:
-        - column_id: Lo Orderpriority
-        - column_id: Quarter(Lo Orderdate)
-        - column_id: Total Lo Partkey
-        axis_configs:
-        - x:
-          - Quarter(Lo Orderdate)
-          "y":
-          - Total Lo Partkey
-          color:
-          - Lo Orderpriority
-        client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Quarter(Lo Orderdate)\",\"columnProperty\": {}},{\"columnId\": \"Lo Orderpriority\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Partkey\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"c6a75b1c-149f-4a67-8207-c6d17717332d\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Partkey\"],\"isOpposite\": false}},{\"id\": \"cec2fd03-abac-4e34-9aca-7d4de9bc76ae\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Quarter(Lo Orderdate)\"]}}],\"systemSeriesColors\": [{\"serieName\": \"1-urgent\",\"color\": \"#2E75F0\"},{\"serieName\": \"2-high\",\"color\": \"#48D1E0\"},{\"serieName\": \"3-medium\",\"color\": \"#FCC838\"},{\"serieName\": \"4-not specified\",\"color\": \"#06BF7F\"},{\"serieName\": \"5-low\",\"color\": \"#8C62F5\"}]}"
-      display_mode: CHART_MODE
-    viz_guid: d7e0ed01-6a1c-4460-b699-ffcf8c2af552
   layout:
     tiles:
     - visualization_id: Viz_1
