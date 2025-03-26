@@ -173,6 +173,42 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"C Mktsegment\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Orderkey\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Extendedprice\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"40e9e04e-714e-4ab7-b5f7-be09986efb1f\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Orderkey\"],\"isOpposite\": false}},{\"id\": \"ab5aa0d8-d038-4734-84fc-964ea4dd8cd1\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Extendedprice\"],\"isOpposite\": true}},{\"id\": \"80caac98-a220-45a8-8c75-72678e042360\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"C Mktsegment\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lo Orderkey\",\"color\": \"#48D1E0\"},{\"serieName\": \"Total Lo Extendedprice\",\"color\": \"#2E75F0\"}]}"
       display_mode: CHART_MODE
     viz_guid: 6b7da9d5-10f4-46bf-ac4f-5c30e4e52a38
+  - id: Viz_5
+    answer:
+      name: Total C Custkey by Lo Shipmode
+      tables:
+      - id: GitVersion
+        name: GitVersion
+        fqn: b069feac-559a-441b-9d70-d7a6c707652c
+      search_query: "[C Custkey] [Lo Shipmode]"
+      answer_columns:
+      - name: Lo Shipmode
+      - name: Total C Custkey
+      table:
+        table_columns:
+        - column_id: Lo Shipmode
+          show_headline: false
+        - column_id: Total C Custkey
+          show_headline: false
+        ordered_column_ids:
+        - Lo Shipmode
+        - Total C Custkey
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: Lo Shipmode
+        - column_id: Total C Custkey
+        axis_configs:
+        - x:
+          - Lo Shipmode
+          "y":
+          - Total C Custkey
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Lo Shipmode\",\"columnProperty\": {}},{\"columnId\": \"Total C Custkey\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"b7ea20e7-3878-42f5-b0ac-a54c59deb86c\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total C Custkey\"],\"isOpposite\": false}},{\"id\": \"83b7e4ce-1cfb-4237-a191-c0ae7b94f1dd\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Lo Shipmode\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total C Custkey\",\"color\": \"#48D1E0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 6d4a2169-737a-447a-a128-f0ba982fb177
   layout:
     tiles:
     - visualization_id: Viz_1
