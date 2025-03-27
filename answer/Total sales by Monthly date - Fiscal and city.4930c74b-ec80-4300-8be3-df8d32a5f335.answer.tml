@@ -5,11 +5,12 @@ answer:
   - id: GitVersion
     name: GitVersion
     fqn: b069feac-559a-441b-9d70-d7a6c707652c
-  search_query: "[Lo Orderkey] [Lo Shippriority] [Lo Shipmode]"
+  search_query: "[Lo Orderkey] [Lo Shippriority] [Lo Shipmode] [Lo Revenue]"
   answer_columns:
   - name: Lo Shipmode
   - name: Lo Shippriority
   - name: Total Lo Orderkey
+  - name: Total Lo Revenue
   table:
     table_columns:
     - column_id: Lo Shipmode
@@ -18,10 +19,13 @@ answer:
       show_headline: false
     - column_id: Total Lo Orderkey
       show_headline: false
+    - column_id: Total Lo Revenue
+      show_headline: false
     ordered_column_ids:
     - Lo Shippriority
     - Lo Shipmode
     - Total Lo Orderkey
+    - Total Lo Revenue
     client_state: ""
     client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
   chart:
@@ -30,6 +34,7 @@ answer:
     - column_id: Lo Shipmode
     - column_id: Lo Shippriority
     - column_id: Total Lo Orderkey
+    - column_id: Total Lo Revenue
     axis_configs:
     - x:
       - Lo Shipmode
