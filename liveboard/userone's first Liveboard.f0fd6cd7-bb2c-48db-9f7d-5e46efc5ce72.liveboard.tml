@@ -295,6 +295,49 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"C Nation\",\"columnProperty\": {}},{\"columnId\": \"Quarter(Lo Orderdate)\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Revenue\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"25943b92-d3cc-41ab-bdcb-8a07a548d946\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Revenue\"],\"isOpposite\": false}},{\"id\": \"f20f58cb-b4b3-42a8-99d6-1319f96b6782\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Quarter(Lo Orderdate)\"]}}],\"systemSeriesColors\": [{\"serieName\": \"algeria\",\"color\": \"#2E75F0\"},{\"serieName\": \"argentina\",\"color\": \"#48D1E0\"},{\"serieName\": \"brazil\",\"color\": \"#FCC838\"},{\"serieName\": \"canada\",\"color\": \"#06BF7F\"},{\"serieName\": \"china\",\"color\": \"#8C62F5\"},{\"serieName\": \"egypt\",\"color\": \"#FF8142\"},{\"serieName\": \"ethiopia\",\"color\": \"#ABC7F9\"},{\"serieName\": \"france\",\"color\": \"#B5ECF2\"},{\"serieName\": \"germany\",\"color\": \"#FDE9AF\"},{\"serieName\": \"india\",\"color\": \"#9BE5CB\"},{\"serieName\": \"indonesia\",\"color\": \"#D1C0FB\"},{\"serieName\": \"iran\",\"color\": \"#FFCCB3\"},{\"serieName\": \"iraq\",\"color\": \"#2359B6\"},{\"serieName\": \"japan\",\"color\": \"#369FAA\"},{\"serieName\": \"jordan\",\"color\": \"#BF982A\"},{\"serieName\": \"kenya\",\"color\": \"#049160\"},{\"serieName\": \"morocco\",\"color\": \"#6A4ABA\"},{\"serieName\": \"mozambique\",\"color\": \"#C26232\"},{\"serieName\": \"peru\",\"color\": \"#71A1F4\"},{\"serieName\": \"romania\",\"color\": \"#82DFE9\"},{\"serieName\": \"russia\",\"color\": \"#FCD977\"},{\"serieName\": \"saudi arabia\",\"color\": \"#56D3A8\"},{\"serieName\": \"united kingdom\",\"color\": \"#B094F8\"},{\"serieName\": \"united states\",\"color\": \"#FFA97E\"},{\"serieName\": \"vietnam\",\"color\": \"#163772\"}]}"
       display_mode: CHART_MODE
     viz_guid: c485deea-c578-4fdd-8961-84896c20f507
+  - id: Viz_8
+    answer:
+      name: Total Lo Revenue by C Region and Lo Orderpriority
+      tables:
+      - id: GitVersion
+        name: GitVersion
+        fqn: b069feac-559a-441b-9d70-d7a6c707652c
+      search_query: "[Lo Orderpriority] [C Region] [Lo Revenue]"
+      answer_columns:
+      - name: C Region
+      - name: Lo Orderpriority
+      - name: Total Lo Revenue
+      table:
+        table_columns:
+        - column_id: C Region
+          show_headline: false
+        - column_id: Lo Orderpriority
+          show_headline: false
+        - column_id: Total Lo Revenue
+          show_headline: false
+        ordered_column_ids:
+        - Lo Orderpriority
+        - C Region
+        - Total Lo Revenue
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: C Region
+        - column_id: Lo Orderpriority
+        - column_id: Total Lo Revenue
+        axis_configs:
+        - x:
+          - C Region
+          "y":
+          - Total Lo Revenue
+          color:
+          - Lo Orderpriority
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Lo Orderpriority\",\"columnProperty\": {}},{\"columnId\": \"C Region\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Revenue\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"1c5659e6-da16-4129-989c-35287e5c3ed0\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Revenue\"],\"isOpposite\": false}},{\"id\": \"0c05d2f7-bdb1-4da4-a5d9-def235915969\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"C Region\"]}}],\"systemSeriesColors\": [{\"serieName\": \"1-urgent\",\"color\": \"#06BF7F\"},{\"serieName\": \"2-high\",\"color\": \"#FCC838\"},{\"serieName\": \"3-medium\",\"color\": \"#48D1E0\"},{\"serieName\": \"4-not specified\",\"color\": \"#71A1F4\"},{\"serieName\": \"5-low\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 8ee1d5e8-26e4-4e23-b98c-67ef3f46c71a
   layout:
     tiles:
     - visualization_id: Viz_1
