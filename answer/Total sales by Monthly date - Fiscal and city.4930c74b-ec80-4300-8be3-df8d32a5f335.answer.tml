@@ -1,0 +1,42 @@
+guid: 4930c74b-ec80-4300-8be3-df8d32a5f335
+answer:
+  name: Total sales by Monthly date - Fiscal and city
+  tables:
+  - id: GitVersion
+    name: GitVersion
+    fqn: b069feac-559a-441b-9d70-d7a6c707652c
+  search_query: "[Lo Orderkey] [Lo Shippriority] [Lo Shipmode]"
+  answer_columns:
+  - name: Lo Shipmode
+  - name: Lo Shippriority
+  - name: Total Lo Orderkey
+  table:
+    table_columns:
+    - column_id: Lo Shipmode
+      show_headline: false
+    - column_id: Lo Shippriority
+      show_headline: false
+    - column_id: Total Lo Orderkey
+      show_headline: false
+    ordered_column_ids:
+    - Lo Shippriority
+    - Lo Shipmode
+    - Total Lo Orderkey
+    client_state: ""
+    client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+  chart:
+    type: COLUMN
+    chart_columns:
+    - column_id: Lo Shipmode
+    - column_id: Lo Shippriority
+    - column_id: Total Lo Orderkey
+    axis_configs:
+    - x:
+      - Lo Shipmode
+      "y":
+      - Total Lo Orderkey
+      color:
+      - Lo Shippriority
+    client_state: ""
+    client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Lo Shippriority\",\"columnProperty\": {}},{\"columnId\": \"Lo Shipmode\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Orderkey\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"3dfb75e3-4f6b-4b44-b4fc-604aa8fa8173\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Orderkey\"],\"isOpposite\": false}},{\"id\": \"5e85aef3-86bc-48bc-9652-3c67facafa36\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Lo Shipmode\"]}}],\"systemSeriesColors\": [{\"serieName\": \"0\",\"color\": \"#FCC838\"}]}"
+  display_mode: CHART_MODE
