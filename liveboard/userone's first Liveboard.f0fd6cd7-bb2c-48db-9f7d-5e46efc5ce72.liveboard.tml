@@ -252,6 +252,49 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Quarter(Lo Orderdate)\",\"columnProperty\": {}},{\"columnId\": \"Lo Orderpriority\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Partkey\",\"columnProperty\": {}},{\"columnId\": \"d60ed0fa-3d0f-48f7-987b-c1d626354b9f\",\"columnProperty\": {}},{\"columnId\": \"174db55b-2455-4c1d-a2d4-17353c0771e3\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"c6a75b1c-149f-4a67-8207-c6d17717332d\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Partkey\"],\"isOpposite\": false}},{\"id\": \"cec2fd03-abac-4e34-9aca-7d4de9bc76ae\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Quarter(Lo Orderdate)\"]}}],\"systemSeriesColors\": [{\"serieName\": \"1-urgent\",\"color\": \"#2E75F0\"},{\"serieName\": \"2-high\",\"color\": \"#48D1E0\"},{\"serieName\": \"3-medium\",\"color\": \"#FCC838\"},{\"serieName\": \"4-not specified\",\"color\": \"#06BF7F\"},{\"serieName\": \"5-low\",\"color\": \"#8C62F5\"}]}"
       display_mode: CHART_MODE
     viz_guid: d7e0ed01-6a1c-4460-b699-ffcf8c2af552
+  - id: Viz_7
+    answer:
+      name: Total Lo Revenue by Quarterly Lo Orderdate - Fiscal and C Nation
+      tables:
+      - id: GitVersion
+        name: GitVersion
+        fqn: b069feac-559a-441b-9d70-d7a6c707652c
+      search_query: "[Lo Revenue] [C Nation] [Lo Orderdate] [Lo Orderdate].quarterly"
+      answer_columns:
+      - name: C Nation
+      - name: Quarter(Lo Orderdate)
+      - name: Total Lo Revenue
+      table:
+        table_columns:
+        - column_id: C Nation
+          show_headline: false
+        - column_id: Quarter(Lo Orderdate)
+          show_headline: false
+        - column_id: Total Lo Revenue
+          show_headline: false
+        ordered_column_ids:
+        - C Nation
+        - Quarter(Lo Orderdate)
+        - Total Lo Revenue
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: LINE
+        chart_columns:
+        - column_id: C Nation
+        - column_id: Quarter(Lo Orderdate)
+        - column_id: Total Lo Revenue
+        axis_configs:
+        - x:
+          - Quarter(Lo Orderdate)
+          "y":
+          - Total Lo Revenue
+          color:
+          - C Nation
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"C Nation\",\"columnProperty\": {}},{\"columnId\": \"Quarter(Lo Orderdate)\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Revenue\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"25943b92-d3cc-41ab-bdcb-8a07a548d946\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Revenue\"],\"isOpposite\": false}},{\"id\": \"f20f58cb-b4b3-42a8-99d6-1319f96b6782\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Quarter(Lo Orderdate)\"]}}],\"systemSeriesColors\": [{\"serieName\": \"algeria\",\"color\": \"#2E75F0\"},{\"serieName\": \"argentina\",\"color\": \"#48D1E0\"},{\"serieName\": \"brazil\",\"color\": \"#FCC838\"},{\"serieName\": \"canada\",\"color\": \"#06BF7F\"},{\"serieName\": \"china\",\"color\": \"#8C62F5\"},{\"serieName\": \"egypt\",\"color\": \"#FF8142\"},{\"serieName\": \"ethiopia\",\"color\": \"#ABC7F9\"},{\"serieName\": \"france\",\"color\": \"#B5ECF2\"},{\"serieName\": \"germany\",\"color\": \"#FDE9AF\"},{\"serieName\": \"india\",\"color\": \"#9BE5CB\"},{\"serieName\": \"indonesia\",\"color\": \"#D1C0FB\"},{\"serieName\": \"iran\",\"color\": \"#FFCCB3\"},{\"serieName\": \"iraq\",\"color\": \"#2359B6\"},{\"serieName\": \"japan\",\"color\": \"#369FAA\"},{\"serieName\": \"jordan\",\"color\": \"#BF982A\"},{\"serieName\": \"kenya\",\"color\": \"#049160\"},{\"serieName\": \"morocco\",\"color\": \"#6A4ABA\"},{\"serieName\": \"mozambique\",\"color\": \"#C26232\"},{\"serieName\": \"peru\",\"color\": \"#71A1F4\"},{\"serieName\": \"romania\",\"color\": \"#82DFE9\"},{\"serieName\": \"russia\",\"color\": \"#FCD977\"},{\"serieName\": \"saudi arabia\",\"color\": \"#56D3A8\"},{\"serieName\": \"united kingdom\",\"color\": \"#B094F8\"},{\"serieName\": \"united states\",\"color\": \"#FFA97E\"},{\"serieName\": \"vietnam\",\"color\": \"#163772\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: c485deea-c578-4fdd-8961-84896c20f507
   layout:
     tiles:
     - visualization_id: Viz_1
