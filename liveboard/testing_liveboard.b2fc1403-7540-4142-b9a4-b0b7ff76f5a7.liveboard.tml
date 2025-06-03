@@ -1,6 +1,6 @@
 guid: b2fc1403-7540-4142-b9a4-b0b7ff76f5a7
 liveboard:
-  name: testing_liveboard_VC
+  name: testing_liveboard
   visualizations:
   - id: Viz_1
     answer:
@@ -46,7 +46,7 @@ liveboard:
           - Total LO_REVENUE
           - Total LO_TAX
         client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"LO_SHIPMODE\",\"columnProperty\": {}},{\"columnId\": \"Quarter(LO_ORDERDATE)\",\"columnProperty\": {}},{\"columnId\": \"Total LO_REVENUE\",\"columnProperty\": {}},{\"columnId\": \"Total LO_TAX\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"02fe784f-a737-4c9d-9dcb-10e8e40267fa\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total LO_REVENUE\"],\"isOpposite\": false}},{\"id\": \"8d95f3a5-85f7-41ef-99a4-0b4dc2034701\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total LO_TAX\"],\"isOpposite\": true}},{\"id\": \"a0c412c7-12c1-411a-a24b-f539aae642c8\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Quarter(LO_ORDERDATE)\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total LO_REVENUE\",\"color\": \"#2E75F0\"},{\"serieName\": \"Total LO_TAX\",\"color\": \"#48D1E0\"}]}"
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"LO_SHIPMODE\",\"columnProperty\": {}},{\"columnId\": \"Quarter(LO_ORDERDATE)\",\"columnProperty\": {}},{\"columnId\": \"Total LO_REVENUE\",\"columnProperty\": {}},{\"columnId\": \"Total LO_TAX\",\"columnProperty\": {}},{\"columnId\": \"2df81ecd-efd7-4012-8771-9cf619ec965a\",\"columnProperty\": {}},{\"columnId\": \"bfc0a3d5-a337-450b-9a55-af9b0fa327d2\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"02fe784f-a737-4c9d-9dcb-10e8e40267fa\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total LO_REVENUE\"],\"isOpposite\": false}},{\"id\": \"8d95f3a5-85f7-41ef-99a4-0b4dc2034701\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total LO_TAX\"],\"isOpposite\": true}},{\"id\": \"a0c412c7-12c1-411a-a24b-f539aae642c8\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Quarter(LO_ORDERDATE)\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total LO_REVENUE\",\"color\": \"#2E75F0\"},{\"serieName\": \"Total LO_TAX\",\"color\": \"#48D1E0\"}]}"
       display_mode: CHART_MODE
     viz_guid: f71f228d-50fb-4142-87d9-4e0c647b2a61
   layout:
