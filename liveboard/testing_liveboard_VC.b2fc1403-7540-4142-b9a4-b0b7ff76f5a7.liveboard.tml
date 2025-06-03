@@ -1,6 +1,6 @@
 guid: b2fc1403-7540-4142-b9a4-b0b7ff76f5a7
 liveboard:
-  name: testing_liveboard
+  name: testing_liveboard_VC
   visualizations:
   - id: Viz_1
     answer:
